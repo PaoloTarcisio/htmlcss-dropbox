@@ -7,3 +7,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* 
+    GENERAL
+*/
+
+.flexbox{
+    display: flex;
+}
+
+/* 
+    HEADER
+*/
+
+.header-bottom{
+    background-color: rgb(185, 207, 229);
+
+}
+
+/* 
+    DEBUG
+*/
+
+.debug{
+    border: 1px solid red;
+    background-color: lightgrey;
+}
+
+.debug > *{
+    border: 1px solid red;
+    background-color: lightgrey;
+}
