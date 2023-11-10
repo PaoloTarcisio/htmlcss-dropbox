@@ -35,6 +35,10 @@
     margin-bottom: 20px;
 }
 
+ul,ol{
+    list-style: none;
+}
+
 /* 
     HEADER
 */
@@ -150,10 +154,17 @@ main section h2{
 
 /* section 6 domande frequenti */
 
-.container-. small select{
-    display: block;
+.container-small select{
+    display:block;
 }
 
+/* FOOTER */
+
+.lista-footer > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 
 
@@ -219,4 +230,5 @@ main section h2{
 .debug select{
     background-color: lightblue;
     border: 1px solid crimson;
+    display: block;
 }
