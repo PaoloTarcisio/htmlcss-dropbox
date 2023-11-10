@@ -109,6 +109,60 @@ main section h2{
     padding: 10px;
 }
 
+/* section 3 dropbox business */
+
+.card-business{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card-business > *{
+    width: 30%;
+    border: 1px solid grey;
+    margin-bottom: 20px;
+}
+
+/* section 4 dropbox user company */
+
+.dropbox-user-company-bottom{
+    display: flex;
+}
+
+.dropbox-user-company-bottom > *{
+    width: calc(100% / 3);
+}
+
+.dropbox-user-company-companies{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.dropbox-user-company-companies > *{
+    width: calc(100% / 2);
+}
+
+/* section 5 domande frequenti */
+
+.bg-celeste{
+    background-color: rgb(185, 207, 229);
+}
+
+/* section 6 domande frequenti */
+
+.container-. small select{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* 
     DEBUG
@@ -141,4 +195,28 @@ main section h2{
 .debug .small-info{
     background-color: lightslategrey;
     border: 1px dashed blue;
+}
+
+.debug .dropbox-user-company-bottom{
+    background-color: orange;
+    border: 1px solid grey;
+    min-height: 300px;
+}
+
+.debug .dropbox-user-company-bottom > *{
+    background-color: green;
+    border: 1px solid blue;
+}
+
+.debug .dropbox-user-company-companies > *{
+    border: 1px dashed pink;
+}
+
+.debug section.bg-celeste{
+    min-height: 300px;
+}
+
+.debug select{
+    background-color: lightblue;
+    border: 1px solid crimson;
 }
