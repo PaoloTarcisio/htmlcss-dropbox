@@ -39,6 +39,11 @@ ul,ol{
     list-style: none;
 }
 
+.blue-button{
+    background-color: rgb(34, 100, 246);
+    padding: 10px 5px;
+}
+
 /* 
     HEADER
 */
@@ -50,15 +55,24 @@ header{
 .main-nav-container{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.main-nav-container nav ul{
+    align-items: center;
 }
 
 .main-nav-container nav ul li{
     display: inline-block;
 }
 
+.main-nav-container nav ul a img{
+    display: block;
+}
+
 .main-nav-container nav ul li a{
     display: inline-block;
-    padding: 5px 10px;
+    padding: 10px 15px;
     text-decoration: none;
     color: black;
 }
@@ -66,6 +80,10 @@ header{
 .header-bottom{
     position: relative;
     top: 50px;
+}
+
+.header-bottom h1{
+    font-size: 4em;
 }
 
 .info{
@@ -76,6 +94,10 @@ header{
     width: 40%;
 }
 
+.info .small-info p{
+    margin-bottom: 10px;
+}
+
 .info .big-info{
     width: 60%;
 }
@@ -83,6 +105,8 @@ header{
 /* 
     MAIN
 */
+
+
 
 main section h2{
     margin-bottom: 40px;
@@ -165,6 +189,8 @@ main section h2{
     flex-direction: row;
     justify-content: space-between;
 }
+
+
 
 
 
